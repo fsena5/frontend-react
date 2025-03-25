@@ -23,8 +23,25 @@ button {
   cursor:pointer;
   background-color: orange;
 }
-
-
+.heading-primary {
+  color:white;
+  font-weight: 250;
+  font-size: 50px;
+  padding-bottom: 10px;
+  text-transform:inherit;
+}
+.heading-primary span {
+  font-weight: 650;
+}
+.text-white {
+  color:white;
+}
+.container {
+  padding: 0 30px;
+}
+.section {
+  padding:70px 0; 
+}
 
 
 

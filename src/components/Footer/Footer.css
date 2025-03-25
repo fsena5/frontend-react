@@ -1,0 +1,12 @@
+.footer {
+  background-color:sienna;
+}
+.grid-container {
+  display:flex;
+}
+.footer-grid-item {
+  padding:60px;
+}
+h3 {
+  padding-bottom:15px;
+}

@@ -1,0 +1,14 @@
+.chef-img {
+  background-image: url('../../../assets/difference-between-a-chef-and-a-cook.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  height:80vh;
+  position:relative;
+}
+.chef-content {
+  position:absolute;
+   bottom:1%; 
+  padding:10px;
+  background-color: orange;
+}

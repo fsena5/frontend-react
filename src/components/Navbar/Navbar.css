@@ -5,6 +5,9 @@
  border-bottom: 1px solid rgba(255,255,255,0.3);
  z-index: 9999;
 }
+.header-bg {
+  background-color:rgba(0,0,0,0.25);
+}
 .nav-bar {
   display: flex; 
   align-items: center;
@@ -31,10 +34,10 @@
 }
 @media screen and ( max-width: 750px) {
   .hamburger {
-    display:block;
+   display:block; 
     cursor:pointer;
   }
-  .nav-menu {
+   .nav-menu { 
     position:absolute;
     top:0;
     left:-100%;
@@ -49,7 +52,7 @@
 
   }
 .nav-menu.active {
-  left:0;
+   left:0; 
 }
 .nav-menu li {
   padding:15px 0;
