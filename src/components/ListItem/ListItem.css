@@ -1,0 +1,22 @@
+.list-items {
+  margin:auto;
+  max-width:750px;
+}
+
+.list-items ul {
+  width:100%;
+}
+.list-items ul li {
+  display:flex;
+  padding:10px 5px;
+
+}
+.list-items ul li h3 {
+  margin-left:auto;
+}
+.list-items img {
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  /* margin-right: 15px; */
+}
