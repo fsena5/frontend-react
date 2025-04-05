@@ -4,8 +4,9 @@ import Home from './pages/Home/Home'
 import Menu from "./pages/Menu/Menu"
 import Delivery from "./pages/Delivery/Delivery"
 import About from './pages/About/About'
+import Contact from "./pages/Contact/Contact"
 
-import Navbar from "./components/Navbar/Navbar"
+import  Navbar from "./components/Navbar/Navbar"
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <Route path="/menu" element={<Menu />} />
     <Route path="/delivery" element={<Delivery/>}/>
     <Route path="/about" element={<About/>}/>
-    <Route path="/" element={<Home/>}/>
+    <Route path="/contact" element={<Contact/>}/>
     <Route path="/" element={<Home/>}/>
     
   </Routes>
